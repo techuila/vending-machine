@@ -1,0 +1,38 @@
+.card {
+	margin: 12px 0;
+	max-width: 250px;
+	min-height: 250px;
+	transition: 150ms all;
+	display: inline-block;
+	padding: var(--common-padding);
+	box-shadow: var(--drop-shadow);
+	border-radius: var(--border-radius);
+}
+
+.card:hover {
+	cursor: pointer;
+}
+
+.disabled:hover {
+	cursor: not-allowed !important;
+}
+
+.disabled {
+	opacity: 0.6;
+	box-shadow: none !important;
+}
+
+.img {
+	width: 100%;
+	height: 250px;
+	object-fit: contain;
+}
+
+.title {
+	font-size: var(--font-size-title);
+	font-weight: 700;
+}
+
+.content {
+	font-size: var(--font-size);
+}

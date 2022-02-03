@@ -1,0 +1,9 @@
+.textbox {
+	height: 32px;
+	border: 1px solid;
+	border-radius: var(--border-radius);
+}
+
+.center {
+	text-align: center;
+}

@@ -1,0 +1,23 @@
+:root {
+	--error: #F54C71;
+	--warning: #BD9C13;
+	--success: #1CBD53;
+	--primary: #262CBC;
+
+	--font-family: 'Poppins', sans-serif; 
+	--font-size: 1rem;
+	--font-size-title: 1.25rem;
+
+	--common-padding: 8px 12px;
+	--border-radius: 6px;
+	--drop-shadow: 0 4px 8px 4px rgba(0, 0, 0, 0.13);
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+* {
+	font-family: var(--font-family);
+}

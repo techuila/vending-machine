@@ -1,0 +1,22 @@
+.itemsContainer {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.controlsContainer {
+	margin-top: 32px; 
+	display: flex;
+	flex-direction: column;
+}
+
+.creditContainer {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.creditAmount {
+	font-size: var(--font-size-title);
+}

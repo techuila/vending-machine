@@ -1,0 +1,24 @@
+.success {
+	background-color: var(--success);
+}
+
+.error{
+	background-color: var(--error);
+}
+
+.warning{
+	background-color: var(--warning);
+}
+
+.primary {
+	background-color: var(--primary);
+}
+
+.ghost {
+	color: var(--primary) !important;
+}
+
+.ghost:hover {
+	background-color: var(--primary);
+	color: #FFFFFF !important;
+}

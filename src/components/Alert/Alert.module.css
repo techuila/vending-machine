@@ -1,0 +1,7 @@
+.alert {
+	margin: 12px 0;
+	min-height: 32px;
+	color: #FFFFFF;
+	padding: var(--common-padding);
+	border-radius: var(--border-radius);
+}

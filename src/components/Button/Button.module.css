@@ -1,0 +1,21 @@
+.btn {
+	margin: 12px 0;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	transition: 150ms all;
+	padding: var(--common-padding);
+	border-radius: var(--border-radius);
+}
+
+.btn:hover {
+	cursor: pointer;
+}
+
+.disabled {
+	opacity: 0.6;
+}
+
+.disabled:hover {
+	cursor: not-allowed !important;
+}
